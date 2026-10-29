@@ -20,9 +20,10 @@ function App() {
         container sx={{ justifyContent: 'flex-end', alignItems: 'center' }}>
 
         <AlertUI description="No se prevén lluvias" />
+        <AlertUI description="Índice UV alto" severity="warning" variant="filled" />
 
       </Grid>
-      
+
       {/* Indicadores */}
       <Grid size={{ xs: 12, md: 9 }}>Elemento: Indicadores</Grid>
 
